@@ -1,16 +1,52 @@
+// // Opgave 1.1
+// const name = "Mads";
+// const age = 24;
+// const isMarried = false;
+// const salary = 12345678901234567678901234567890n;
 
-// // Random number generator
-// function generateRandomNumber(minNum = 66, maxNum = 500) {
-//     return Math.floor(Math.random() * (maxNum - minNum + 1)) + minNum;
+// const person = { 
+//     name, 
+//     age, 
+//     isMarried, 
+//     salary, 
+// };
+
+// function greet() {
+// console.log('Hello, ' + person.name);
 // }
-// const randomNumber = generateRandomNumber();
-// console.log(`Execute Order ${randomNumber}`);
 
 
+// let address;
+// let king = null; 
+// console.log(person); 
+
+// // sammentræk string med number
+// const greeting = "Hej, jeg hedder " + name + " og jeg er " + age + " år gammel.";
+// console.log(greeting);
+
+// const ageMarried = age * isMarried;
+// console.log(ageMarried)
+
+// // const kingValue = king == address;
+// const kingValue = king === address;
+// console.log(kingValue)
 
 
+// Opgave 1.2
+// function checkUserInput(username, password) {
+//     if (username && password) {
+//         console.log(`Velkommen, ${username}.`);
+//         return true;
+//     } else {
+//         console.log("Indtast venligst et gyldigt brugernavn og kodeord.");
+//         return false;
+//     }
+// }
 
-// // Valuta omregner
+// checkUserInput('Julemand', 'password123')
+
+
+// // Opgave 1.3
 // function convertCurrency(usdAmount) {
 //     const exchangeRate = 7.5;
 //     const dkkAmount = usdAmount * exchangeRate;
@@ -18,10 +54,56 @@
 //         style: 'currency',
 //         currency: 'DKK'
 //     }).format(dkkAmount)
-//     return dkkAmount.toFixed(2);
+//     return formattedAmount;
 // }
 // const beløbIDKK = convertCurrency(150);
 // console.log(`${beløbIDKK}`);
+
+
+// Opgave 1.4
+// function checkUserInput(username, password) {
+//     const regexEmail = /\S+@\S+\.\S+/;
+
+//     if (!username && !password) {
+//         console.log("Indtast venligst et gyldigt brugernavn og kodeord.");
+//         return false;
+//     }
+
+//     if (!username) {
+//         console.log("Indtast venligst et gyldigt brugernavn.");
+//         return false;
+//     }
+
+//     if (!regexEmail.test(username)) {
+//         console.log("Brugernavnet skal være en gyldig e-mailadresse.");
+//         return false;
+//     }
+
+//     if (!password) {
+//         console.log("Indtast venligst et gyldigt kodeord.");
+//         return false;
+//     }
+
+//     if (password.length < 8) {
+//         console.log("Kodeordet skal være mindst 8 tegn langt.");
+//         return false;
+//     }
+
+//     console.log(`Velkommen, ${username}.`);
+//     return true;
+// }
+// checkUserInput('test@example.com', 'password123');
+// checkUserInput('Julemand', 'password123'); 
+
+
+
+
+// // Opgave 1.5
+// function generateRandomNumber(minNum = 66, maxNum = 500) {
+//     return Math.floor(Math.random() * (maxNum - minNum + 1)) + minNum;
+// }
+// const randomNumber = generateRandomNumber();
+// console.log(`Execute Order ${randomNumber}`);
 
 
 
