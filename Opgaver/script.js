@@ -108,7 +108,7 @@
 
 
 
-// //Fremtidig dato
+// // Opgave 1.6
 // function findFutureDate(days) {
 //     var currentDate = new Date();
 //     currentDate.setDate(currentDate.getDate() + days);
@@ -142,6 +142,7 @@
 //     return `${getHero.join('')} Batman`;
 // }
 // console.log(parseNumbers(canLiftMjolnir));
+
 
 
 //Liste af superhelte som bliver vist på siden
