@@ -127,7 +127,16 @@
 //   "Vision", "Falcon", "WarMachine"
 // ];
 
-// //Min men med arrow functions
+
+
+// // Opgave 2.4
+// let [originalArray, uniqueArray] = [[1, 2, 3, 2, 4, 3, 5], [...new Set([1, 2, 3, 2, 4, 3, 5])]];
+// console.log("Original:", originalArray);
+// console.log("Uden dubletter:", uniqueArray);
+
+
+
+// // Opgave 3.1
 // const parseNumbers = heroInput => {
 //   const getHero = heroInput.slice(0, 12).map(hero => parseInt(hero));
 //   return `${getHero.join('')} Batman`;
@@ -145,7 +154,7 @@
 
 
 
-//Liste af superhelte som bliver vist på siden
+// // Opgave 3.2
 // const superHeroes = [
 //         { heroname: "Thor", age: 1000, powers: ["Strength", "Flight"] },
 //         { heroname: "Doctor Strange", age: 35, powers: ["Flight", "Teleportation"] },
