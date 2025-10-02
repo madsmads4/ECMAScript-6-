@@ -32,9 +32,9 @@
 // console.log(kingValue)
 
 
-// Opgave 1.2
+// // Opgave 1.2
 // function checkUserInput(username, password) {
-//     if (username && password) {
+//     if (username || password) {
 //         console.log(`Velkommen, ${username}.`);
 //         return true;
 //     } else {
@@ -60,7 +60,7 @@
 // console.log(`${beløbIDKK}`);
 
 
-// Opgave 1.4
+// // Opgave 1.4
 // function checkUserInput(username, password) {
 //     const regexEmail = /\S+@\S+\.\S+/;
 
@@ -120,7 +120,7 @@
 
 
 
-//Array med helte
+// Array med helte
 // const canLiftMjolnir = [
 //   "Thor", "IronMan", "CaptainAmerica", "Hulk", "BlackWidow", 
 //   "SpiderMan", "DoctorStrange", "BlackPanther", "ScarletWitch", 
@@ -154,7 +154,7 @@
 
 
 
-// // Opgave 3.2
+// Opgave 3.2
 // const superHeroes = [
 //         { heroname: "Thor", age: 1000, powers: ["Strength", "Flight"] },
 //         { heroname: "Doctor Strange", age: 35, powers: ["Flight", "Teleportation"] },
